@@ -1,18 +1,12 @@
 function main() {
-  closedFolder();
+
 }
 
-
-
-function closedFolder() {
-  var a;
-  a = document.getElementById("folder");
-  a.innerHTML = "&#xf114;";
-}
-
-
-function openfolder() {
-  var a;
-  a = document.getElementsById("folder");
-  a.innerHTML = "&#xf115;";
+function showFile() {
+  var el = document.getElementById('rest');
+  if (el.style.display === "none") {
+    el.style.display = "block";
+  } else {
+    el.style.display = "none";
+  }
 }

@@ -2,15 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Home - MikaDev</title>
+    <title>File System</title>
   </head>
   <body onload="main()">
     <script type="text/javascript" src="scripts/script1.js"></script>
       <div class="content">
         <div class="folder" id="folder">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" width="69px" height="69px">
+          <button type="button" name="button" onclick="showFile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" width="69px" height="69px" onclick="showFile()">
               <path d="M 4 4 C 2.9057453 4 2 4.9057453 2 6 L 2 18 C 2 19.094255 2.9057453 20 4 20 L 20 20 C 21.094255 20 22 19.094255 22 18 L 22 8 C 22 6.9057453 21.094255 6 20 6 L 12 6 L 10 4 L 4 4 z M 4 6 L 9.171875 6 L 11.171875 8 L 20 8 L 20 18 L 4 18 L 4 6 z"/>
             </svg>
+          </button>
+        </div>
+        <div class="myClass" id="rest" style="display: none;">
+            <p>this is just a test..</p>
         </div>
       </div>
   </body>
